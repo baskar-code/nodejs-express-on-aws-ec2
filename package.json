@@ -4,6 +4,6 @@
   "dependencies": {
     "express": "4.17.1",
     "dotenv": "^9.0.2",
-    "mongoose": "^5.12.3",
+    "mongoose": "^5.12.3"
   }
 }
