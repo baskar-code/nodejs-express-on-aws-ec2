@@ -1,7 +1,36 @@
 {
-  "name": "nodejs-express-on-aws-ec2",
-  "version": "0.0.1",
+  "name": "showday_node_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app",
+    "dev": "nodemon --inspect src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetanbansal019/showday_node_server.git"
+  },
+  "author": "Chetan Bansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chetanbansal019/showday_node_server/issues"
+  },
+  "homepage": "https://github.com/chetanbansal019/showday_node_server#readme",
   "dependencies": {
-    "express": "4.17.1",         
-      }
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.6.0",
+    "mongoose": "^5.12.3",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.0.1",
+    "socketio-jwt-auth": "^0.2.1",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
+© 2021 GitHub, Inc.
